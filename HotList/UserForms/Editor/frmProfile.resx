@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mnuSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 22</value>
+  </data>
+  <data name="mnuSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="mnuClose.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="mnuClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 22</value>
+  </data>
+  <data name="mnuClose.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="mnuEditUndo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="mnuEditUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuEditUndo.Text" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="mnuEditCut.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="mnuEditCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuEditCut.Text" xml:space="preserve">
+    <value>Cut&amp;</value>
+  </data>
+  <data name="mnuEditCopy.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="mnuEditCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuEditCopy.Text" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="mnuEditPaste.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="mnuEditPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuEditPaste.Text" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="mnuEditDelete.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Del</value>
+  </data>
+  <data name="mnuEditDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuEditDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="mnuEditSelectAll.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="mnuEditSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuEditSelectAll.Text" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="mnuEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="mnuEdit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="mnuWindowSpy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="mnuWindowSpy.Text" xml:space="preserve">
+    <value>Window &amp;Spy</value>
+  </data>
+  <data name="mnuWindowSpyLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="mnuWindowSpyLocation.Text" xml:space="preserve">
+    <value>Set Window Spy &amp;Location</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="hlpProviderProfile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>715, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="tsBtnClose.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsBtnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsBtnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="tsBtnSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsBtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsBtnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tsbWindowSpy.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsbWindowSpy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsbWindowSpy.Text" xml:space="preserve">
+    <value>Launch Window Spy</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="toolStrip1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ProfileName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ProfileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ProfileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ProfileName.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProfileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 26</value>
+  </data>
+  <data name="ProfileName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ProfileName.Name" xml:space="preserve">
+    <value>ProfileName</value>
+  </data>
+  <data name="&gt;&gt;ProfileName.Type" xml:space="preserve">
+    <value>BigByteTechnologies.Windows.AHKSnipit.HotList.UC.UcFileName, HotList, Version=0.7.2.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProfileName.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;ProfileName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkGlobal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkGlobal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkGlobal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 107</value>
+  </data>
+  <data name="chkGlobal.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkGlobal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="chkGlobal.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <metadata name="ttMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>513, 17</value>
+  </metadata>
+  <data name="chkGlobal.ToolTip" xml:space="preserve">
+    <value>Global State.
+If Checked the Profile will be Global and will only be inactive on the Windows in the Windows list.
+
+If unchecked the profile will be active only on the Windows in the Windows list</value>
+  </data>
+  <data name="&gt;&gt;chkGlobal.Name" xml:space="preserve">
+    <value>chkGlobal</value>
+  </data>
+  <data name="&gt;&gt;chkGlobal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkGlobal.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;chkGlobal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProfileVersion.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ProfileVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="ProfileVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ProfileVersion.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProfileVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 26</value>
+  </data>
+  <data name="ProfileVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ProfileVersion.Name" xml:space="preserve">
+    <value>ProfileVersion</value>
+  </data>
+  <data name="&gt;&gt;ProfileVersion.Type" xml:space="preserve">
+    <value>BigByteTechnologies.Windows.AHKSnipit.HotList.UC.UcVersion, HotList, Version=0.7.2.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProfileVersion.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;ProfileVersion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblGlobalProfile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGlobalProfile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGlobalProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="lblGlobalProfile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="lblGlobalProfile.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGlobalProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblGlobalProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblGlobalProfile.Text" xml:space="preserve">
+    <value>Global:</value>
+  </data>
+  <data name="&gt;&gt;lblGlobalProfile.Name" xml:space="preserve">
+    <value>lblGlobalProfile</value>
+  </data>
+  <data name="&gt;&gt;lblGlobalProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGlobalProfile.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;lblGlobalProfile.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ProfileDisplayName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ProfileDisplayName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="ProfileDisplayName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ProfileDisplayName.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProfileDisplayName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 26</value>
+  </data>
+  <data name="ProfileDisplayName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayName.Name" xml:space="preserve">
+    <value>ProfileDisplayName</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayName.Type" xml:space="preserve">
+    <value>BigByteTechnologies.Windows.AHKSnipit.HotList.UC.UcField, HotList, Version=0.7.2.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayName.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ProfileDisplayDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ProfileDisplayDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 78</value>
+  </data>
+  <data name="ProfileDisplayDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ProfileDisplayDescription.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProfileDisplayDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 26</value>
+  </data>
+  <data name="ProfileDisplayDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayDescription.Name" xml:space="preserve">
+    <value>ProfileDisplayDescription</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayDescription.Type" xml:space="preserve">
+    <value>BigByteTechnologies.Windows.AHKSnipit.HotList.UC.UcField, HotList, Version=0.7.2.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayDescription.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;ProfileDisplayDescription.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="clbEndChars.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="clbEndChars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="clbEndChars.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clbEndChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 225</value>
+  </data>
+  <data name="clbEndChars.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;clbEndChars.Name" xml:space="preserve">
+    <value>clbEndChars</value>
+  </data>
+  <data name="&gt;&gt;clbEndChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clbEndChars.Parent" xml:space="preserve">
+    <value>gbEndChars</value>
+  </data>
+  <data name="&gt;&gt;clbEndChars.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbEndChars.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbEndChars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 3</value>
+  </data>
+  <data name="gbEndChars.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbEndChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 244</value>
+  </data>
+  <data name="gbEndChars.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbEndChars.Text" xml:space="preserve">
+    <value>End Chars</value>
+  </data>
+  <data name="&gt;&gt;gbEndChars.Name" xml:space="preserve">
+    <value>gbEndChars</value>
+  </data>
+  <data name="&gt;&gt;gbEndChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbEndChars.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;gbEndChars.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tlpMain.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 250</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ProfileName" Row="0" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="chkGlobal" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ProfileVersion" Row="1" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="lblGlobalProfile" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ProfileDisplayName" Row="2" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="ProfileDisplayDescription" Row="3" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="gbEndChars" Row="0" RowSpan="5" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,35,Absolute,20,Percent,40" /&gt;&lt;Rows Styles="Absolute,26,Absolute,26,Absolute,26,Absolute,26,Percent,100,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabMain.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 256</value>
+  </data>
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="tabMain.ToolTipText" xml:space="preserve">
+    <value>Main Profile Information</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ColName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ColName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="ColName.Width" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <metadata name="ColWindow.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColWindow.HeaderText" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="ColWindow.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="windowsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>335, 17</value>
+  </metadata>
+  <data name="dgWindows.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgWindows.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dgWindows.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="dgWindows.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 250</value>
+  </data>
+  <data name="dgWindows.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgWindows.Name" xml:space="preserve">
+    <value>dgWindows</value>
+  </data>
+  <data name="&gt;&gt;dgWindows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgWindows.Parent" xml:space="preserve">
+    <value>tabWindows</value>
+  </data>
+  <data name="&gt;&gt;dgWindows.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabWindows.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabWindows.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabWindows.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabWindows.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 256</value>
+  </data>
+  <data name="tabWindows.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabWindows.Text" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="tabWindows.ToolTipText" xml:space="preserve">
+    <value>Windows to Include in Profile ( or exclude if Globl is checked )</value>
+  </data>
+  <data name="&gt;&gt;tabWindows.Name" xml:space="preserve">
+    <value>tabWindows</value>
+  </data>
+  <data name="&gt;&gt;tabWindows.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabWindows.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tabWindows.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="tcMain.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tcMain.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 282</value>
+  </data>
+  <data name="tcMain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Name" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="cmdMgr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>237, 17</value>
+  </metadata>
+  <metadata name="bsEndChars.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>600, 17</value>
+  </metadata>
+  <metadata name="cMnuEdit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>864, 17</value>
+  </metadata>
+  <data name="cMnuEditUndo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cMnuEditUndo.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 6</value>
+  </data>
+  <data name="cMnuEditCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cMnuEditCut.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="cMnuEditCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cMnuEditCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cMnuEditPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cMnuEditPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="cMnuEditDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cMnuEditDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 6</value>
+  </data>
+  <data name="cMnuEditSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cMnuEditSelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="cMnuEdit.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cMnuEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 148</value>
+  </data>
+  <data name="&gt;&gt;cMnuEdit.Name" xml:space="preserve">
+    <value>cMnuEdit</value>
+  </data>
+  <data name="&gt;&gt;cMnuEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>597, 331</value>
+  </data>
+  <data name="$this.HelpKeyword" xml:space="preserve">
+    <value>Profile1</value>
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>Topic</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AAAAIgD/ACIA/wAiAP+ZzJn/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8AIgD/ACIA/zOZZv8AIgD//////wAiAP8AIgD/ACIA/zOZZv8AIgD/ACIA/wAi
+        AP8AIgD/ACIA//////8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8AIgD/ACIA/zOZM/8AIgD/mcyZ/wAiAP8z/5n/ACIA/wAiAP8AIgD/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8AIgD/M/+Z/wAiAP8zmWb/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8zmWb/ACIA/zPMZv8AIgD/ACIA/wAi
+        AP8zmWb/ACIA/wAiAP8AIgD/M5lm/wAiAP8zzGb/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/zOZ
+        M/8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8zmTP/ACIA/wAiAP8AIgD/M5lm/wAi
+        AP8AIgD/ACIA/5nMmf8AIgD/ACIA/wAiAP+ZzJn/ACIA/5nMmf8AIgD/M5lm/wAiAP8AIgD/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8AIgD/ACIA/zOZZv8AIgD/ACIA/wAiAP8AIgD/ACIA/wAiAP8AIgD//////wAi
+        AP+ZzJn/ACIA/wAiAP8AIgD/M5lm/wAiAP8AIgD/ACIA/zOZZv8AIgD/ACIA/wAiAP+ZzJn/ACIA/wAi
+        AP8AIgD/ACIA/wAiAP8zmTP/ACIA/wAiAP8AIgD/mcyZ/wAiAP//////ACIA/wAiAP8AIgD/ACIA/wAi
+        AP8z/5n/ACIA/zOZZv8AIgD/ACIA/wAiAP+ZzJn/ACIA/wAiAP8AIgD/mcyZ/wAiAP//////ACIA/zOZ
+        Zv8AIgD/ACIA/wAiAP8zmWb/ACIA/wAiAP8AIgD/M5lm/wAiAP8zmWb/ACIA/zP/mf8AIgD/ACIA/wAi
+        AP8zmWb/ACIA/zPMZv8AIgD/mcyZ/wAiAP+ZzJn/ACIA/zOZZv8AIgD/ACIA/wAiAP8zmWb/ACIA/zP/
+        mf8AIgD/mcyZ/wAiAP8AIgD/ACIA/5nMmf8AIgD/M5lm/wAiAP+ZzJn/ACIA/5nMmf8AIgD/M8xm/wAi
+        AP8zmTP/ACIA/zOZM/8AIgD/mcyZ/wAiAP8zmWb/ACIA/zOZZv8AIgD/M8xm/wAiAP8AIgD/ACIA/5nM
+        mf8AIgD/M8xm/wAiAP8zmWb/ACIA/wAiAP8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZZv8AIgD/ACIA/wAi
+        AP+ZzJn/ACIA/wAiAP8AIgD/M5lm/wAiAP8zmWb/ACIA/zPMZv8AIgD/mcyZ/wAiAP8zmWb/ACIA/wAi
+        AP8AIgD/M5lm/wAiAP+ZzJn/ACIA/5nMmf8AIgD/ACIA/wAiAP+ZzJn/ACIA/zOZZv8AIgD/M8xm/wAi
+        AP//////ACIA/zOZZv8AIgD/ACIA/wAiAP8AIgD/ACIA/zOZM/8AIgD/M5lm/wAiAP8zmWb/ACIA/zOZ
+        M/8AIgD/ACIA/wAiAP+ZzJn/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZZv8AIgD/ACIA/wAi
+        AP8zmWb/ACIA/zP/mf8AIgD/M8xm/wAiAP8AIgD/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/5nM
+        mf8AIgD/M5lm/wAiAP8AIgD/ACIA/zOZZv8AIgD/M5kz/wAiAP+ZzJn/ACIA/zOZZv8AIgD/mcyZ/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/M8xm/wAiAP8zmWb/ACIA/wAiAP8AIgD/M5kz/wAiAP+ZzJn/ACIA/zOZ
+        Zv8AIgD/M5lm/wAiAP+ZzJn/ACIA/wAiAP8AIgD/M8xm/wAiAP8zmWb/ACIA/zOZZv8AIgD/M8xm/wAi
+        AP8zmWb/ACIA/wAiAP8AIgD/M5lm/wAiAP+ZzJn/ACIA/5nMmf8AIgD/M5kz/wAiAP8zmWb/ACIA/zOZ
+        Zv8AIgD/mcyZ/wAiAP8zmTP/ACIA/zOZZv8AIgD/ACIA/wAiAP8zmWb/ACIA/zPMZv8AIgD/ACIA/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/mcyZ/wAiAP8zzGb/ACIA/zOZZv8AIgD/M5lm/wAiAP8AIgD/ACIA/5nM
+        mf8AIgD/mcyZ/wAiAP8zmWb/ACIA/zOZZv8AIgD/M8xm/wAiAP8AIgD/ACIA/zPMZv8AIgD/M5lm/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zmWb/ACIA/zOZZv8AIgD/mcyZ/wAiAP+ZzJn/ACIA/wAi
+        AP8AIgD/M5lm/wAiAP8zmWb/ACIA/zPMZv8AIgD/mcyZ/wAiAP8zmWb/ACIA/wAiAP8AIgD/M5lm/wAi
+        AP8zzGb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zzGb/ACIA/5nMmf8AIgD/mcyZ/wAiAP8zmWb/ACIA/wAi
+        AP8AIgD/M5kz/wAiAP+ZzJn/ACIA/zPMZv8AIgD/M5lm/wAiAP8zmWb/ACIA/5nMmf8AIgD//////wAi
+        AP+ZzJn/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZZv8AIgD/M5lm/wAiAP8zmWb/ACIA/5nM
+        mf8AIgD/mcyZ/wAiAP8AIgD/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZM/8AIgD/M5lm/wAi
+        AP8zzGb/ACIA/zOZZv8AIgD/mcyZ/wAiAP+ZzJn/ACIA/zOZZv8AIgD/mcyZ/wAiAP8AIgD/ACIA/zOZ
+        M/8AIgD/M5lm/wAiAP8zmWb/ACIA/wAiAP8AIgD/mcyZ/wAiAP+ZzJn/ACIA/zOZZv8AIgD/M5lm/wAi
+        AP+ZzJn/ACIA/zP/mf8AIgD/mcyZ/wAiAP8zmWb/ACIA/wAiAP8AIgD/mcyZ/wAiAP8zmWb/ACIA/zOZ
+        Zv8AIgD/M5lm/wAiAP8zzGb/ACIA/zPMZv8AIgD/mcyZ/wAiAP8zzGb/ACIA/zOZZv8AIgD/M8xm/wAi
+        AP8zmTP/ACIA/zOZZv8AIgD/M5lm/wAiAP8zmWb/ACIA/5nMmf8AIgD//////wAiAP8zmWb/ACIA/zPM
+        Zv8AIgD/mcyZ/wAiAP8zzGb/ACIA/zOZZv8AIgD/M5lm/wAiAP8zmWb/ACIA/zOZZv8AIgD/mcyZ/wAi
+        AP8zmWb/ACIA/zOZZv8AIgD/ACIA/wAiAP+ZzJn/ACIA/5nMmf8AIgD/M5lm/wAiAP8z/5n/ACIA/5nM
+        mf8AIgD/M5lm/wAiAP8zmWb/ACIA/zOZZv8AIgD//////wAiAP8zmTP/ACIA/5nMmf8AIgD/M8xm/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/mcyZ/wAiAP//////ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zPM
+        Zv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zPMZv8AIgD/mcyZ/wAiAP8zzGb/ACIA/wAiAP8AIgD/M5lm/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zmWb/ACIA/zP/mf8AIgD/mcyZ/wAiAP+ZzJn/ACIA/zOZ
+        Zv8AIgD/mcyZ/wAiAP+ZzJn/ACIA/zOZZv8AIgD/M5lm/wAiAP8zmWb/ACIA/zP/mf8AIgD//////wAi
+        AP8AIgD/ACIA/5nMmf8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZM/8AIgD/M8xm/wAiAP8zmWb/ACIA/zOZ
+        Zv8AIgD/M8xm/wAiAP8zmWb/ACIA/zOZZv8AIgD/ACIA/wAiAP+ZzJn/ACIA/5nMmf8AIgD/M5lm/wAi
+        AP8z/5n/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/5nM
+        mf8AIgD/M8xm/wAiAP8zmWb/ACIA/5nMmf8AIgD/mcyZ/wAiAP//////ACIA/zOZZv8AIgD/M5lm/wAi
+        AP+ZzJn/ACIA/zPMZv8AIgD/M8xm/wAiAP8AIgD/ACIA/zOZZv8AIgD/M8xm/wAiAP8zmTP/ACIA/zOZ
+        Zv8AIgD/M5lm/wAiAP8zmWb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zmWb/ACIA/zP/mf8AIgD/ACIA/wAi
+        AP+ZzJn/ACIA/zOZZv8AIgD/mcyZ/wAiAP8zmWb/ACIA/wAiAP8AIgD/M8xm/wAiAP8zmWb/ACIA/zOZ
+        Zv8AIgD/M8xm/wAiAP+ZzJn/ACIA/5nMmf8AIgD/M5lm/wAiAP8zmTP/ACIA/5nMmf8AIgD/M8xm/wAi
+        AP8AIgD/ACIA/zOZZv8AIgD/mcyZ/wAiAP8zmWb/ACIA/wAiAP8AIgD//////wAiAP8zmWb/ACIA/5nM
+        mf8AIgD/M5kz/wAiAP8zmWb/ACIA/zOZZv8AIgD/M5lm/wAiAP8zzGb/ACIA/zOZZv8AIgD/M5lm/wAi
+        AP+ZzJn/ACIA//////8AIgD/M5kz/wAiAP8zmWb/ACIA/5nMmf8AIgD/M5lm/wAiAP8z/5n/ACIA/5nM
+        mf8AIgD/M5lm/wAiAP8zmWb/ACIA/5nMmf8AIgD/mcyZ/wAiAP//////ACIA/zOZZv8AIgD/M8xm/wAi
+        AP+ZzJn/ACIA/zOZZv8AIgD/M/+Z/wAiAP8zmWb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zmTP/ACIA/zOZ
+        Zv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zPMZv8AIgD/M5lm/wAiAP8zmWb/ACIA/zPMZv8AIgD/mcyZ/wAi
+        AP8zmWb/ACIA/zOZZv8AIgD/mcyZ/wAiAP8zzGb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zzGb/ACIA/zOZ
+        Zv8AIgD/mcyZ/wAiAP8zzGb/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zPMZv8AIgD/M/+Z/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/mcyZ/wAiAP8AIgD/ACIA/5nMmf8AIgD/M5lm/wAiAP8zzGb/ACIA/zOZ
+        Zv8AIgD/mcyZ/wAiAP8zmWb/ACIA/zOZZv8AIgD/M8xm/wAiAP8zmTP/ACIA/zOZZv8AIgD/M5lm/wAi
+        AP8zmWb/ACIA/5nMmf8AIgD/M5lm/wAiAP8zmWb/ACIA/zOZZv8AIgD/M5lm/wAiAP+ZzJn/ACIA/zOZ
+        Zv8AIgD/mcyZ/wAiAP8zmWb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSave.Name" xml:space="preserve">
+    <value>mnuSave</value>
+  </data>
+  <data name="&gt;&gt;mnuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuClose.Name" xml:space="preserve">
+    <value>mnuClose</value>
+  </data>
+  <data name="&gt;&gt;mnuClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>toolsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuWindowSpy.Name" xml:space="preserve">
+    <value>mnuWindowSpy</value>
+  </data>
+  <data name="&gt;&gt;mnuWindowSpy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuWindowSpyLocation.Name" xml:space="preserve">
+    <value>mnuWindowSpyLocation</value>
+  </data>
+  <data name="&gt;&gt;mnuWindowSpyLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsBtnClose.Name" xml:space="preserve">
+    <value>tsBtnClose</value>
+  </data>
+  <data name="&gt;&gt;tsBtnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsBtnSave.Name" xml:space="preserve">
+    <value>tsBtnSave</value>
+  </data>
+  <data name="&gt;&gt;tsBtnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsbWindowSpy.Name" xml:space="preserve">
+    <value>tsbWindowSpy</value>
+  </data>
+  <data name="&gt;&gt;tsbWindowSpy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColName.Name" xml:space="preserve">
+    <value>ColName</value>
+  </data>
+  <data name="&gt;&gt;ColName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColWindow.Name" xml:space="preserve">
+    <value>ColWindow</value>
+  </data>
+  <data name="&gt;&gt;ColWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;windowsBindingSource.Name" xml:space="preserve">
+    <value>windowsBindingSource</value>
+  </data>
+  <data name="&gt;&gt;windowsBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdMgr.Name" xml:space="preserve">
+    <value>cmdMgr</value>
+  </data>
+  <data name="&gt;&gt;cmdMgr.Type" xml:space="preserve">
+    <value>BigByteTechnologies.Library.Windows.CommandManagement.CommandManager, CommandManager, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ttMain.Name" xml:space="preserve">
+    <value>ttMain</value>
+  </data>
+  <data name="&gt;&gt;ttMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bsEndChars.Name" xml:space="preserve">
+    <value>bsEndChars</value>
+  </data>
+  <data name="&gt;&gt;bsEndChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hlpProviderProfile.Name" xml:space="preserve">
+    <value>hlpProviderProfile</value>
+  </data>
+  <data name="&gt;&gt;hlpProviderProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEdit.Name" xml:space="preserve">
+    <value>mnuEdit</value>
+  </data>
+  <data name="&gt;&gt;mnuEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEditUndo.Name" xml:space="preserve">
+    <value>mnuEditUndo</value>
+  </data>
+  <data name="&gt;&gt;mnuEditUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEditCut.Name" xml:space="preserve">
+    <value>mnuEditCut</value>
+  </data>
+  <data name="&gt;&gt;mnuEditCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEditCopy.Name" xml:space="preserve">
+    <value>mnuEditCopy</value>
+  </data>
+  <data name="&gt;&gt;mnuEditCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEditPaste.Name" xml:space="preserve">
+    <value>mnuEditPaste</value>
+  </data>
+  <data name="&gt;&gt;mnuEditPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEditDelete.Name" xml:space="preserve">
+    <value>mnuEditDelete</value>
+  </data>
+  <data name="&gt;&gt;mnuEditDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuEditSelectAll.Name" xml:space="preserve">
+    <value>mnuEditSelectAll</value>
+  </data>
+  <data name="&gt;&gt;mnuEditSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditUndo.Name" xml:space="preserve">
+    <value>cMnuEditUndo</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditCut.Name" xml:space="preserve">
+    <value>cMnuEditCut</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditCopy.Name" xml:space="preserve">
+    <value>cMnuEditCopy</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditPaste.Name" xml:space="preserve">
+    <value>cMnuEditPaste</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditDelete.Name" xml:space="preserve">
+    <value>cMnuEditDelete</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditSelectAll.Name" xml:space="preserve">
+    <value>cMnuEditSelectAll</value>
+  </data>
+  <data name="&gt;&gt;cMnuEditSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmProfile</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

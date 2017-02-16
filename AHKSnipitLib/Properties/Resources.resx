@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorDuplicateKey" xml:space="preserve">
+    <value>Duplicate {0}</value>
+  </data>
+  <data name="ErrorDuplicateNotAllowed" xml:space="preserve">
+    <value>Duplicates are not allowed</value>
+  </data>
+  <data name="ErrorEmptyXmlString" xml:space="preserve">
+    <value>XML does not contain any data.</value>
+  </data>
+  <data name="ErrorFileNotExist" xml:space="preserve">
+    <value>File does not exist</value>
+  </data>
+  <data name="ErrorInvalidFormat" xml:space="preserve">
+    <value>Not a valid format</value>
+  </data>
+  <data name="ErrorItemTypeDefault" xml:space="preserve">
+    <value>Only one item can be marked as default</value>
+  </data>
+  <data name="ErrorPluginParentNull" xml:space="preserve">
+    <value>Plugin Parent property is null</value>
+  </data>
+  <data name="ErrorPluginsConstructorProfileRead" xml:space="preserve">
+    <value>Unable to create instance of Profile from xml file</value>
+  </data>
+  <data name="ErrorProfileMinVersionNewer" xml:space="preserve">
+    <value>The Profile Minimum version is newer than the current version.</value>
+  </data>
+  <data name="ErrorValueMutNotBeNull" xml:space="preserve">
+    <value>Cannot be empty</value>
+  </data>
+  <data name="ErrroNumberLettersUnserscore" xml:space="preserve">
+    <value>Only Letters, Number and Underscore are accepted</value>
+  </data>
+  <data name="HotKeyFormatInvalidExceptionMissingTriggerKey" xml:space="preserve">
+    <value>The Hotkey is missing trigger Key(s).</value>
+  </data>
+  <data name="HotkeysCombineExceptionToFiewKeys" xml:space="preserve">
+    <value>Key Combination was attempted but was missing a key on one side of the Combination.</value>
+  </data>
+  <data name="HotkeysCombineExceptionTooManyKeys" xml:space="preserve">
+    <value>There are too many keys to combine. Maximum of Two keys are supported.</value>
+  </data>
+  <data name="InvalidXml" xml:space="preserve">
+    <value>Not valid xml.</value>
+  </data>
+  <data name="KeyAlt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="KeyCtrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="KeyLeft" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="KeyNotSupportedExceptionDefault" xml:space="preserve">
+    <value>The key '{0}' is not supported.</value>
+  </data>
+  <data name="KeyRight" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="KeysCombine" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="KeyShift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="KeysHook" xml:space="preserve">
+    <value>Hook</value>
+  </data>
+  <data name="KeysNativeBlock" xml:space="preserve">
+    <value>Block</value>
+  </data>
+  <data name="KeysWildcard" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="KeyUP" xml:space="preserve">
+    <value>UP</value>
+  </data>
+  <data name="KeyWin" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="ReplacementNameDialogInput" xml:space="preserve">
+    <value>Dialog Input</value>
+  </data>
+  <data name="ReplacementNameDialogList" xml:space="preserve">
+    <value>Dialog List</value>
+  </data>
+  <data name="ValueHasToBeSet" xml:space="preserve">
+    <value>{0} must be set</value>
+  </data>
+  <data name="HotKeyFormatInvalidExceptionInvalidCombination" xml:space="preserve">
+    <value>The Hotkey Combination is Invalid</value>
+  </data>
+  <data name="FileAutoGenMessage" xml:space="preserve">
+    <value>; This is an auto-generated file. Do not change contents of this file!</value>
+  </data>
+  <data name="FileLicenseHeaderText" xml:space="preserve">
+    <value>;{License
+/* Copyright (C) 2014-2017  Paul Moss
+ * 
+ * This file is part of AhkSnippy.
+ *
+ * AhkSnippy is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * AhkSnippy is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License 
+ */
+; End:License ;}</value>
+  </data>
+  <data name="XmlMapEndCharKeys" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;AhkKeyMap&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Zero&lt;/Key&gt;&lt;AutoHotKeyValue&gt;0&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;0&lt;/DisplayValue&gt;&lt;Sort&gt;1&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;One&lt;/Key&gt;&lt;AutoHotKeyValue&gt;1&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;1&lt;/DisplayValue&gt;&lt;Sort&gt;2&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Two&lt;/Key&gt;&lt;AutoHotKeyValue&gt;2&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;2&lt;/DisplayValue&gt;&lt;Sort&gt;3&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Three&lt;/Key&gt;&lt;AutoHotKeyValue&gt;3&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;3&lt;/DisplayValue&gt;&lt;Sort&gt;4&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Four&lt;/Key&gt;&lt;AutoHotKeyValue&gt;4&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;4&lt;/DisplayValue&gt;&lt;Sort&gt;5&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Five&lt;/Key&gt;&lt;AutoHotKeyValue&gt;5&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;5&lt;/DisplayValue&gt;&lt;Sort&gt;6&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Six&lt;/Key&gt;&lt;AutoHotKeyValue&gt;6&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;6&lt;/DisplayValue&gt;&lt;Sort&gt;7&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Seven&lt;/Key&gt;&lt;AutoHotKeyValue&gt;7&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;7&lt;/DisplayValue&gt;&lt;Sort&gt;8&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Eight&lt;/Key&gt;&lt;AutoHotKeyValue&gt;8&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;8&lt;/DisplayValue&gt;&lt;Sort&gt;9&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Nine&lt;/Key&gt;&lt;AutoHotKeyValue&gt;9&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;9&lt;/DisplayValue&gt;&lt;Sort&gt;10&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_A&lt;/Key&gt;&lt;AutoHotKeyValue&gt;A&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;A&lt;/DisplayValue&gt;&lt;Sort&gt;11&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_B&lt;/Key&gt;&lt;AutoHotKeyValue&gt;B&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;B&lt;/DisplayValue&gt;&lt;Sort&gt;12&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_C&lt;/Key&gt;&lt;AutoHotKeyValue&gt;C&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;C&lt;/DisplayValue&gt;&lt;Sort&gt;13&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_D&lt;/Key&gt;&lt;AutoHotKeyValue&gt;D&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;D&lt;/DisplayValue&gt;&lt;Sort&gt;14&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_E&lt;/Key&gt;&lt;AutoHotKeyValue&gt;E&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;E&lt;/DisplayValue&gt;&lt;Sort&gt;15&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_F&lt;/Key&gt;&lt;AutoHotKeyValue&gt;F&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;F&lt;/DisplayValue&gt;&lt;Sort&gt;16&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_G&lt;/Key&gt;&lt;AutoHotKeyValue&gt;G&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;G&lt;/DisplayValue&gt;&lt;Sort&gt;17&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_H&lt;/Key&gt;&lt;AutoHotKeyValue&gt;H&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;H&lt;/DisplayValue&gt;&lt;Sort&gt;18&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_I&lt;/Key&gt;&lt;AutoHotKeyValue&gt;I&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;I&lt;/DisplayValue&gt;&lt;Sort&gt;19&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_J&lt;/Key&gt;&lt;AutoHotKeyValue&gt;J&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;J&lt;/DisplayValue&gt;&lt;Sort&gt;20&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_K&lt;/Key&gt;&lt;AutoHotKeyValue&gt;K&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;K&lt;/DisplayValue&gt;&lt;Sort&gt;21&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_L&lt;/Key&gt;&lt;AutoHotKeyValue&gt;L&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;L&lt;/DisplayValue&gt;&lt;Sort&gt;22&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_M&lt;/Key&gt;&lt;AutoHotKeyValue&gt;M&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;M&lt;/DisplayValue&gt;&lt;Sort&gt;23&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_N&lt;/Key&gt;&lt;AutoHotKeyValue&gt;N&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;N&lt;/DisplayValue&gt;&lt;Sort&gt;24&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_O&lt;/Key&gt;&lt;AutoHotKeyValue&gt;O&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;O&lt;/DisplayValue&gt;&lt;Sort&gt;25&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_P&lt;/Key&gt;&lt;AutoHotKeyValue&gt;P&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;P&lt;/DisplayValue&gt;&lt;Sort&gt;26&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_Q&lt;/Key&gt;&lt;AutoHotKeyValue&gt;Q&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Q&lt;/DisplayValue&gt;&lt;Sort&gt;27&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_R&lt;/Key&gt;&lt;AutoHotKeyValue&gt;R&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;R&lt;/DisplayValue&gt;&lt;Sort&gt;28&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_S&lt;/Key&gt;&lt;AutoHotKeyValue&gt;S&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;S&lt;/DisplayValue&gt;&lt;Sort&gt;29&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_T&lt;/Key&gt;&lt;AutoHotKeyValue&gt;T&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;T&lt;/DisplayValue&gt;&lt;Sort&gt;30&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_U&lt;/Key&gt;&lt;AutoHotKeyValue&gt;U&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;U&lt;/DisplayValue&gt;&lt;Sort&gt;31&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_V&lt;/Key&gt;&lt;AutoHotKeyValue&gt;V&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;V&lt;/DisplayValue&gt;&lt;Sort&gt;32&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_W&lt;/Key&gt;&lt;AutoHotKeyValue&gt;W&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;W&lt;/DisplayValue&gt;&lt;Sort&gt;33&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_X&lt;/Key&gt;&lt;AutoHotKeyValue&gt;X&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;X&lt;/DisplayValue&gt;&lt;Sort&gt;34&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_Y&lt;/Key&gt;&lt;AutoHotKeyValue&gt;Y&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Y&lt;/DisplayValue&gt;&lt;Sort&gt;35&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Upper_Z&lt;/Key&gt;&lt;AutoHotKeyValue&gt;Z&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Z&lt;/DisplayValue&gt;&lt;Sort&gt;36&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_A&lt;/Key&gt;&lt;AutoHotKeyValue&gt;a&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;a&lt;/DisplayValue&gt;&lt;Sort&gt;37&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_B&lt;/Key&gt;&lt;AutoHotKeyValue&gt;b&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;b&lt;/DisplayValue&gt;&lt;Sort&gt;38&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_C&lt;/Key&gt;&lt;AutoHotKeyValue&gt;c&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;c&lt;/DisplayValue&gt;&lt;Sort&gt;39&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_D&lt;/Key&gt;&lt;AutoHotKeyValue&gt;d&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;d&lt;/DisplayValue&gt;&lt;Sort&gt;40&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_E&lt;/Key&gt;&lt;AutoHotKeyValue&gt;e&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;e&lt;/DisplayValue&gt;&lt;Sort&gt;41&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_F&lt;/Key&gt;&lt;AutoHotKeyValue&gt;f&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;f&lt;/DisplayValue&gt;&lt;Sort&gt;42&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_G&lt;/Key&gt;&lt;AutoHotKeyValue&gt;g&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;g&lt;/DisplayValue&gt;&lt;Sort&gt;43&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_H&lt;/Key&gt;&lt;AutoHotKeyValue&gt;h&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;h&lt;/DisplayValue&gt;&lt;Sort&gt;44&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_I&lt;/Key&gt;&lt;AutoHotKeyValue&gt;i&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;i&lt;/DisplayValue&gt;&lt;Sort&gt;45&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_J&lt;/Key&gt;&lt;AutoHotKeyValue&gt;j&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;j&lt;/DisplayValue&gt;&lt;Sort&gt;46&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_K&lt;/Key&gt;&lt;AutoHotKeyValue&gt;k&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;k&lt;/DisplayValue&gt;&lt;Sort&gt;47&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_L&lt;/Key&gt;&lt;AutoHotKeyValue&gt;l&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;l&lt;/DisplayValue&gt;&lt;Sort&gt;48&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_M&lt;/Key&gt;&lt;AutoHotKeyValue&gt;m&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;m&lt;/DisplayValue&gt;&lt;Sort&gt;49&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_N&lt;/Key&gt;&lt;AutoHotKeyValue&gt;n&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;n&lt;/DisplayValue&gt;&lt;Sort&gt;50&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_O&lt;/Key&gt;&lt;AutoHotKeyValue&gt;o&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;o&lt;/DisplayValue&gt;&lt;Sort&gt;51&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_P&lt;/Key&gt;&lt;AutoHotKeyValue&gt;p&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;p&lt;/DisplayValue&gt;&lt;Sort&gt;52&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_Q&lt;/Key&gt;&lt;AutoHotKeyValue&gt;q&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;q&lt;/DisplayValue&gt;&lt;Sort&gt;53&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_R&lt;/Key&gt;&lt;AutoHotKeyValue&gt;r&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;r&lt;/DisplayValue&gt;&lt;Sort&gt;54&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_S&lt;/Key&gt;&lt;AutoHotKeyValue&gt;s&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;s&lt;/DisplayValue&gt;&lt;Sort&gt;55&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_T&lt;/Key&gt;&lt;AutoHotKeyValue&gt;t&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;t&lt;/DisplayValue&gt;&lt;Sort&gt;56&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_U&lt;/Key&gt;&lt;AutoHotKeyValue&gt;u&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;u&lt;/DisplayValue&gt;&lt;Sort&gt;57&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_V&lt;/Key&gt;&lt;AutoHotKeyValue&gt;v&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;v&lt;/DisplayValue&gt;&lt;Sort&gt;58&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_W&lt;/Key&gt;&lt;AutoHotKeyValue&gt;w&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;w&lt;/DisplayValue&gt;&lt;Sort&gt;59&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_X&lt;/Key&gt;&lt;AutoHotKeyValue&gt;x&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;x&lt;/DisplayValue&gt;&lt;Sort&gt;60&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_Y&lt;/Key&gt;&lt;AutoHotKeyValue&gt;y&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;y&lt;/DisplayValue&gt;&lt;Sort&gt;61&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Lower_Z&lt;/Key&gt;&lt;AutoHotKeyValue&gt;z&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;z&lt;/DisplayValue&gt;&lt;Sort&gt;62&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;QuestionMark&lt;/Key&gt;&lt;AutoHotKeyValue&gt;?&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;? (Question Mark)&lt;/DisplayValue&gt;&lt;Sort&gt;63&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Period&lt;/Key&gt;&lt;AutoHotKeyValue&gt;.&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;. (Period)&lt;/DisplayValue&gt;&lt;Sort&gt;64&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Space&lt;/Key&gt;&lt;AutoHotKeyValue&gt;` &lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Space&lt;/DisplayValue&gt;&lt;Sort&gt;65&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Tab&lt;/Key&gt;&lt;AutoHotKeyValue&gt;`t&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Tab&lt;/DisplayValue&gt;&lt;Sort&gt;66&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Enter&lt;/Key&gt;&lt;AutoHotKeyValue&gt;`n&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Enter&lt;/DisplayValue&gt;&lt;Sort&gt;67&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;And&lt;/Key&gt;&lt;AutoHotKeyValue&gt;&amp;amp;&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;&amp;amp; (AND)&lt;/DisplayValue&gt;&lt;Sort&gt;68&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Colon&lt;/Key&gt;&lt;AutoHotKeyValue&gt;:&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;: (Colon)&lt;/DisplayValue&gt;&lt;Sort&gt;69&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Comma&lt;/Key&gt;&lt;AutoHotKeyValue&gt;,&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;, (Comma)&lt;/DisplayValue&gt;&lt;Sort&gt;70&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Dollar&lt;/Key&gt;&lt;AutoHotKeyValue&gt;$&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;$ (Dollar)&lt;/DisplayValue&gt;&lt;Sort&gt;71&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Equal&lt;/Key&gt;&lt;AutoHotKeyValue&gt;=&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;= (Equal)&lt;/DisplayValue&gt;&lt;Sort&gt;72&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;ExclamationMark&lt;/Key&gt;&lt;AutoHotKeyValue&gt;!&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;! (Exclamation Mark)&lt;/DisplayValue&gt;&lt;Sort&gt;73&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;UnderScore&lt;/Key&gt;&lt;AutoHotKeyValue&gt;_&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;_ (Under Score)&lt;/DisplayValue&gt;&lt;Sort&gt;74&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;GreaterThan&lt;/Key&gt;&lt;AutoHotKeyValue&gt;&amp;gt;&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;&amp;gt; (Greater Than)&lt;/DisplayValue&gt;&lt;Sort&gt;75&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;LessThan&lt;/Key&gt;&lt;AutoHotKeyValue&gt;&amp;lt;&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;&amp;lt; (LessThan)&lt;/DisplayValue&gt;&lt;Sort&gt;76&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Hyphen&lt;/Key&gt;&lt;AutoHotKeyValue&gt;-&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;- (Hyphen)&lt;/DisplayValue&gt;&lt;Sort&gt;77&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Percent&lt;/Key&gt;&lt;AutoHotKeyValue&gt;%&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;% (Percent)&lt;/DisplayValue&gt;&lt;Sort&gt;78&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Pipe&lt;/Key&gt;&lt;AutoHotKeyValue&gt;|&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;| (Pipe)&lt;/DisplayValue&gt;&lt;Sort&gt;79&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Plus&lt;/Key&gt;&lt;AutoHotKeyValue&gt;+&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;+ (Plus)&lt;/DisplayValue&gt;&lt;Sort&gt;80&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Pound&lt;/Key&gt;&lt;AutoHotKeyValue&gt;#&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;# (Pound)&lt;/DisplayValue&gt;&lt;Sort&gt;81&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SemiColin&lt;/Key&gt;&lt;AutoHotKeyValue&gt;;&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;; (Semi Colin)&lt;/DisplayValue&gt;&lt;Sort&gt;82&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SingleQuote&lt;/Key&gt;&lt;AutoHotKeyValue&gt;'&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;' (Single Quote)&lt;/DisplayValue&gt;&lt;Sort&gt;83&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;DoubleQuote&lt;/Key&gt;&lt;AutoHotKeyValue&gt;"&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;" (Double Quote)&lt;/DisplayValue&gt;&lt;Sort&gt;84&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Asterisk&lt;/Key&gt;&lt;AutoHotKeyValue&gt;*&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;* (Asterisk)&lt;/DisplayValue&gt;&lt;Sort&gt;85&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;AT&lt;/Key&gt;&lt;AutoHotKeyValue&gt;@&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;@ (AT)&lt;/DisplayValue&gt;&lt;Sort&gt;86&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;BackQuote&lt;/Key&gt;&lt;AutoHotKeyValue&gt;``&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;` (Back Quote)&lt;/DisplayValue&gt;&lt;Sort&gt;87&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;BackSlash&lt;/Key&gt;&lt;AutoHotKeyValue&gt;\&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;\ (Back Slash)&lt;/DisplayValue&gt;&lt;Sort&gt;88&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;ForwardShash&lt;/Key&gt;&lt;AutoHotKeyValue&gt;/&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;/ (Forward Shash)&lt;/DisplayValue&gt;&lt;Sort&gt;89&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;CurlyBraceOpen&lt;/Key&gt;&lt;AutoHotKeyValue&gt;{&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;{ (Curly BraceOpen)&lt;/DisplayValue&gt;&lt;Sort&gt;90&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;CurlyBraceClose&lt;/Key&gt;&lt;AutoHotKeyValue&gt;}&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;} (CurlyBrace Close)&lt;/DisplayValue&gt;&lt;Sort&gt;91&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SquareBracketOpen&lt;/Key&gt;&lt;AutoHotKeyValue&gt;[&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;[ (Square Bracket Open)&lt;/DisplayValue&gt;&lt;Sort&gt;92&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SqureBracketClose&lt;/Key&gt;&lt;AutoHotKeyValue&gt;]&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;] (Squre Bracket Close)&lt;/DisplayValue&gt;&lt;Sort&gt;93&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;OpenParenthesis&lt;/Key&gt;&lt;AutoHotKeyValue&gt;(&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;( (Open Parenthesis)&lt;/DisplayValue&gt;&lt;Sort&gt;94&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;CloseParenthesis&lt;/Key&gt;&lt;AutoHotKeyValue&gt;)&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;) (Close Parenthesis)&lt;/DisplayValue&gt;&lt;Sort&gt;95&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Carat&lt;/Key&gt;&lt;AutoHotKeyValue&gt;^&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;^ (Carat)&lt;/DisplayValue&gt;&lt;Sort&gt;96&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Tilde&lt;/Key&gt;&lt;AutoHotKeyValue&gt;~&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;~ (Tilde)&lt;/DisplayValue&gt;&lt;Sort&gt;97&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;/AhkKeyMap&gt;</value>
+  </data>
+  <data name="XmlMapSendTypeEnum" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;AhkKeyMap&gt;&lt;AhkMapValue&gt;&lt;Key&gt;None&lt;/Key&gt;&lt;AutoHotKeyValue&gt;&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;None&lt;/DisplayValue&gt;&lt;Sort&gt;0&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;Send&lt;/Key&gt;&lt;AutoHotKeyValue&gt;&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Send (default)&lt;/DisplayValue&gt;&lt;Sort&gt;1&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SendInput&lt;/Key&gt;&lt;AutoHotKeyValue&gt;si&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Send Input&lt;/DisplayValue&gt;&lt;Sort&gt;2&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SendPlay&lt;/Key&gt;&lt;AutoHotKeyValue&gt;sp&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Send Play&lt;/DisplayValue&gt;&lt;Sort&gt;3&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;AhkMapValue&gt;&lt;Key&gt;SendEvent&lt;/Key&gt;&lt;AutoHotKeyValue&gt;se&lt;/AutoHotKeyValue&gt;&lt;DisplayValue&gt;Send Event&lt;/DisplayValue&gt;&lt;Sort&gt;4&lt;/Sort&gt;&lt;/AhkMapValue&gt;&lt;/AhkKeyMap&gt;</value>
+  </data>
+  <data name="XmlMapHotStringType" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;SortedMap&gt;&lt;Item&gt;&lt;Key&gt;UnKnown&lt;/Key&gt;&lt;Value&gt;Unknown Value&lt;/Value&gt;&lt;SortOrder&gt;0&lt;/SortOrder&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;Code&lt;/Key&gt;&lt;Value&gt;Code&lt;/Value&gt;&lt;SortOrder&gt;3&lt;/SortOrder&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;Inline&lt;/Key&gt;&lt;Value&gt;In-Line&lt;/Value&gt;&lt;SortOrder&gt;1&lt;/SortOrder&gt;&lt;/Item&gt;&lt;Item&gt;&lt;Key&gt;Paste&lt;/Key&gt;&lt;Value&gt;Paste&lt;/Value&gt;&lt;SortOrder&gt;2&lt;/SortOrder&gt;&lt;/Item&gt;&lt;/SortedMap&gt;</value>
+  </data>
+  <data name="ErrorDuplicateKeysNotAllowed" xml:space="preserve">
+    <value>Duplicates keys are not allowed</value>
+  </data>
+  <data name="ErrorXmlMapKeyMissing" xml:space="preserve">
+    <value>Key is missing from xml data. Maps must have valid keys</value>
+  </data>
+  <data name="ErrorMissingSchemaVersion" xml:space="preserve">
+    <value>Bad Xml! schemaVersion attribute not found.</value>
+  </data>
+  <data name="ErrorFileNotFound" xml:space="preserve">
+    <value>The specified file can not be found.</value>
+  </data>
+  <data name="ErrorSchemVersion" xml:space="preserve">
+    <value>Xml is outside the valid range for attribute schemaVersion. Valid range is from '{0|' to '{1}'</value>
+  </data>
+</root>

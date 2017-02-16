@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All" xml:space="preserve">
+    <value>&lt;&lt; Select All &gt;&gt;</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="exit_16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAy9JREFUOE99
+        kklME2EYhr9KpYW0pXSb0mWYbtPSlgJWCAKNiVJQiooIiIhHxahBCxbC5oIFtxCN8WLiyZOOo7gkshmo
+        guJGRIwa1KhRD4qE3ky8+DkONYFofJPn9r9P/rz54E90RiM0NO2H7hPH4HC4E9o62qE+uBdqamtgtb8Q
+        MpdlgclqBkKvBbVeAwarAVJpU6zNRU+S0Nkdhr2NDfua21qYLbVbmQ3lG5miNcVMXkE+43S7GT1pZLR6
+        HUPaqEa9TQupdirW5mLkBCdOHodD4c6Lc3Oz+OHDO2QuX8TuY2FsbW/G1YWrUCAAFCwBtGUbWIODAMqx
+        QODQ6eA89/WurnnBzLcv+PrNK7w3fhevXLuEO3ftQLFkKY8918AaXRqgnJygXCTm2a4h4GrdDjgXrL++
+        UPDg0Rj2Dd7EYKge5UQiT5qPZE1ZBJjcnGDc4YQn7nS478mAiUAAItk5/a96enBmZrFgf8s+JCxJPOmr
+        KJbO1YE5nRtx3GQhI6lUdYQyV4/a06ofeZdPfff58HlHB05Pv+QFZ86ewqb2IJIeJU9msZl1rjSCxcMJ
+        hoiUqp+BAC6ioAB/FBfjxJ7dOH4/gs0tIWw+2ID0Ci2PN2BlM4oosGaYAQYJbVXUbMY5gwGjdjtG3W6M
+        ulwYtVpx1mbDyPp12DdwA1uPNKLHb+TJKaPZ5aUWsGVZAAZUmqq3ajVOCwSLeC0U4iRN4/DpHn6DjqMh
+        zC4z8+RVOtjcChroZb8FClX+KJnaO0qSvWMmU+9Dp+vrtEiET7xefHqjl9/g9sgAHjgeQl+tfZ4aJ+ur
+        SQPaywmGtSkwTGiBJQi4mZEOfS5X/+NCP36cmsT379/inbERPHK6BUvqctBf5+ZZuc3F5m22g9GhA6gQ
+        J0AJdwcFEgkEc71wtqSob/bzJ3z2YgK7zjXhplAeljZkLiJ/c9oVj58CpS45doZc5GIRkCqFrLRy7a3w
+        hT1YediL5Qc9/yRzjWlILIlPliklsTYXsUgESpUiUZokr1So1U3/IcS9qU6QxssSpQmxNpc4oRAUGgWo
+        9AqBXC2NU6QkCZW6v5FrpHHJhEwgJ2QQL4qHXzjaebFpvgVLAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="flag_green_16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6AAAdTAAAOpgAAA6lwAAF2+XqZnUAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGHRF
+        WHRTb2Z0d2FyZQBwYWludC5uZXQgNC4wLjlsM35OAAAA1ElEQVQ4T2NITk4WT0lJOZeUlGTHAAQWKxk4
+        LbYweFhsYqiz2MwwBcius9zCIA+SwwqAmrWB+D/QoHjLzQx9lpsYPgDp/2j4BdCwQCAuA8qvBRp+B8h+
+        abaYgQ9uQFJKUgIWjXix1XYGdYoMMNvGIEORAa47GbgpMeAnSiCSYcALigwAxsQzQgb8A0bZLaDCrUD2
+        VTQ5kAG/7fczsKAbsAsYv1OtNjGEm29kEAfbAASg6AJqOA008BJIDZDuBGJTsCTMAFBCAguQCkYNYMDI
+        zqQBBgYAXLgfdhu3jn4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="flag_red_16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6AAAdTAAAOpgAAA6lwAAF2+XqZnUAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGHRF
+        WHRTb2Z0d2FyZQBwYWludC5uZXQgNC4wLjlsM35OAAAAzElEQVQ4T2NITk4WT0lJOQfEtgxAcIyBgfMQ
+        A4PHAQaGOiCeAmTX7WVgkAfJYQVAjdpA/B9oUDxQQx8QfzjIwPAfDb84zMAQCJQrA7LXAvEdIPvlEQYG
+        XrgBqUADkDQQhYEGqFNkwH4GBhmKDLjAwMBNtgHAMPiJEohkuOAFRQYAXfAMrwFABf+A9C0g3grEV2Hi
+        SPg3MBBZ0A3YBcRTgTj8OAODONgGIABFF9DA00DxS1A1nUC+KVgSZgAoIYEFSAWjBjBgZGfSAAMDAFIT
+        DAbDCtoCAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="green_light16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAy9JREFUOE99
+        kmtIU2EYx88UsSIMg8CMKQhmYikhSR8WpBE0JtEq02zDlZWFLiWnzUxo23FrWivL0txO87KZmCll93Jt
+        zW6W2mA5NfqiYta6GJUR4f695zjoSn/4wXPe8/we3nPel/ozgYGB88VicaHRaLxjt9tHHA7HKMMwtrS0
+        NGVQUNACf9u/k5SUlOlyud7bnTYcq9VCrpIhT5WFyhoNuuy34Xa7PwoEgh3+9t+TkpKS6xn0+A5VKLBF
+        uRpVrSrc6bmMriedqG6jkV6SjBJdPjyeAZ9QKCz2azMJCwtb2d/f971YmwuRcinco4/hnRrD268zsLVn
+        vBfrSxOwn84B2eV0REREsl+neDRN25imWohKlkF3Yxc8Hx5g6NNDDH95xMHWng/3YejKg1AZi1rzKRgM
+        hoesy/60SKfz3rRCn4N1+kU48mQbHO+a4JxsRvfkeQ7npJVbO9ong7ByEQr1O9Hd7fQFBwcvoaKiojZf
+        bG+DolqG9PrFONAvgHWiBO1eHTq8eg62tk4chPKZABmNi1FQlYkLF1sRFxcno+Lj43MtzU04cHY7sloS
+        UOZei8rRzagZzwHzqoCDrStGNqLs+RrIWuNRcCoDluZGkFNTUHw+P5Mxm2BoKUNWUyLowQ2oGssi0l6c
+        fSXnOEMGnBiTgh5aD5k1EXprMc4RJzo6ejcVEBAQV2esm7Z0mJBxIhHqga04PZ4LZkKBhtelhIMwTRSi
+        enwP1IMZSD+5HJZLJhhNRh+5WCvYU5gjkUgemRsZ6JqLUHhDDJO3HA1v1LC+pgkamN8cRh15VtwWQ9Uo
+        R73lHLKzs13EncsOoEJCQjaVa+nv12514nBDHo73FWFgqg+j315i5NsLPJ96iipXMUrNu3Gz6yp0R7TT
+        oaGhEqLyuAEks8n3GNQale9SZwdu9nSgvvco2odNHObeClzvacOVa5ehodW+2NjYGuLMmVF/Zl54eLhG
+        vk/+idZq0NrWgrt2G+46bNyRleto5Bfkf+ZH8CtIb+iM8ndmEVaR3TAikWhAIpV4pVLp29TUVE9MTEwD
+        j8djr+9srvN/iYyMnEVYSIjxE86u+V//Eor6ASHy7eMOalA4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="HotKey" xml:space="preserve">
+    <value>Hotkey</value>
+  </data>
+  <data name="HotString" xml:space="preserve">
+    <value>HotString</value>
+  </data>
+  <data name="red_light16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAydJREFUOE99
+        kwtI01EYxf9TzJRQNApbbJOVTRGMoJaBUkoFMvOZlrqlbWmPldpDTTJN90+XxTIolntYZg8fOcvsac1N
+        RxlEuhCVgsiECipJCip093TnBj3pwA8u9zvn4z6ZP+Xp6RmYnJy8X6/X37dYLK+tVuu40Wg0p6WlHfTy
+        8prntv1bYrE40263T9jMZhhUVVBLM1GTlQFd5RFY73VjaGhoMioqSu62/67Y2Fjl6MgI0ewthCpSjM5D
+        pRhob8eAyYSu8jKwq8Q4sVuJ0eFhEhcXV+yOuRQUFBQ58PTp1PEdeagJ5uGdzYbvY2OYcuMcv3/cj9pF
+        wTimkOOZ3e7g8/kx7jjDYVnWfEmrhVooQP+mNHztMWPa0gNitczgHH+jc0+yZVDzubhw6hQ0Gs0jZ9Z5
+        aIK+3l5HnWIrGny9MRa3DtNnz4DotYChfgai02JaexrjCRI0+sxCXc4W2Pr6iLe3dygjFAo3drS1oWFz
+        Ou7M9ceHJcEgO7cBpQeAsmIXpftBduXiI611B/rBkJIIU2srwsPDc5iIiAjllaYmXMxIh4UXhE/LwkBi
+        IoHNiYA8w8WmBJA1KzG5NBS9C+ejIWkDrjQ2gt7aAYbH42WeMxhwvaQIdxfz8Xm1GCRpPZCVTMPpwFZK
+        ZiJIwlp8iV6ObiEPpsJ8nKeZkJCQPMbDwyNcr9M5bujqcUEkxERqDIg8FUS5BdiXR8mlW5KBZCdhMmU1
+        Li4W4Bb1GvR6Qh/WCuct+Eql0v4m2vFagRJPJNHAyX0gVQVwVOyFo7wQpGI3cDwfg7TWnqfAJaMRCoXC
+        TrNznA0YPz+/1GqWnbp/oxNt2+V4VUQP8dlD4NUo8HIYsNswXpKL1hwpem524Vh1tSMgIEBKo5yZBlQ+
+        dD8atrKSdHWYMNjeiue1FXhjrMNbygv1YQy2XMbtzus4WlVFwsLCtDTj64r+lD+Xy1Xl79nzuVqlwtXm
+        ZlgfPICV/gtTSwvULIvCgoIvfB6vlnoDXJG/NZsSTVdjlEgkwzKp9L1MJvsQHx8/IhKJGjkcjvP5+sw4
+        /yeBQDCbsoAicsN1zrnLv4hhfgBknNzKQ+0EhwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="save_16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAuVJREFUOE+N
+        0UtMU0EYhuG/NQpCWzUiCxVijMYNMcGNK1HEEIUCgtDgwlsULAgq9yINIrdCFVAQEGrvF057aCtGbFAs
+        YkUiiqAEWbgyxqBgQImwwfh5KG7cFCd5kvln8c4kQ1EZajpbxlD9jSZibtfQK+0VmjRn0LRF+o8pzgd9
+        NnW3lFLrdQXlXW2m2FwLUXSWjiKl6n2XG3t/PSsX42tpyIoSZSxisjV14nyG6PBFPe1LuyspMwzB6R7F
+        zMw3n6amJnEk34YUGcOIC6xE4hwjRZxXS66ZR2DvfY3JL599+vT5I6JyWCTLrExCEUsUl2vmAhpJBfMW
+        9/vHsLAw79Ps7Ayi8+04JrMx8UWdy4H9Uq2kmh3DA884FhcXfZqb+4HDhc7lgGwpkGemAxlaSY19nHvB
+        KL7/mPXp6/QkYou7kMQFEortSwELRWboJErnBB4OTGClNT//E/Hy+9xP2JjEEuffQKbeGyhs96DGPAiF
+        6QWqjQOoMgygUv8cFXoPynUeXNM+g1z1FMcVvTgqY5kk+T3uF3JN3kCtYwI5mhGU3DKgTm1Dg86BRkMX
+        buqc3MyiQKnFCaXb61RdPxKKbFzAQRSV1kgR6SpJjeO9N6AzqVBQUYvEnGZ0Oq0YHPLgkdsFC2OEtOUl
+        su68xOn6fsQVdDBHstuJwmMuUHhyRarCvhzoYI2Q16twpsEDg0mDJ/096PP0wtrZgay2V8hVD+Nc43Mc
+        PHezc484k0+hu6N4gtC9Jyqt734vBRxdLBRN7UivMkFjUOFxnwtDw4Owsh24dPcNig2jkDYPYm9KiUu4
+        ces62hgaxiPihYYdSmMyG9xoU7XC1dMN+z0WRosOJovee7tCWYWTih6cvf4YqeXd2BWZpl8rClpP/qJg
+        Em0K8ePxV20hoh2cnf9h+6rVfpuCtu3mc3serfYXUYAoiPwDhfy1nECBkC8UCviCJQIBNwu85/6BIv6a
+        gPV87lJewIbN5CcKpj/NMFr0pYoX3gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="DisableText" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="EnableText" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="PluginDisableTooltip" xml:space="preserve">
+    <value>Click to disable Plugin</value>
+  </data>
+  <data name="PluginEnableTooltip" xml:space="preserve">
+    <value>Click to enable Plugin</value>
+  </data>
+  <data name="ValidatePluginSuccess" xml:space="preserve">
+    <value>The plugin file has successfully validated.</value>
+  </data>
+  <data name="FileExportedMessage" xml:space="preserve">
+    <value>File as exported successfully</value>
+  </data>
+  <data name="FileExportTitle" xml:space="preserve">
+    <value>File Export</value>
+  </data>
+  <data name="ProfileExistText" xml:space="preserve">
+    <value>Profile {0} alread exist.</value>
+  </data>
+  <data name="ProfileExistTitle" xml:space="preserve">
+    <value>Profile Exist</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>Import Complete</value>
+  </data>
+  <data name="ImportCompleteTitle" xml:space="preserve">
+    <value>Import Complete</value>
+  </data>
+  <data name="ImportInvalidFileText" xml:space="preserve">
+    <value>File is not valid for import</value>
+  </data>
+  <data name="ImportInvalidFileTitle" xml:space="preserve">
+    <value>Invalid File</value>
+  </data>
+  <data name="ImportNoMatchingProfileText" xml:space="preserve">
+    <value>There is not Profile Named {0}. Plugins must have a matching Profile to be imported.</value>
+  </data>
+  <data name="ImportNoMatchingProfileTitle" xml:space="preserve">
+    <value>No Matching Profile</value>
+  </data>
+  <data name="ImportMinVersionErrorText" xml:space="preserve">
+    <value>The import Minimum Version Requirement has not been met. You may need to upgrade this Application to install this plugin(s).</value>
+  </data>
+  <data name="ImportMinVersionErrorTitle" xml:space="preserve">
+    <value>Version Error</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValidateInstallSuccess" xml:space="preserve">
+    <value>The install file has successfully validated.</value>
+  </data>
+  <data name="ValidationDialogInstallTitle" xml:space="preserve">
+    <value>Validate Install</value>
+  </data>
+  <data name="ValidationDialogPluginTitle" xml:space="preserve">
+    <value>Validate Plugin</value>
+  </data>
+  <data name="ValidatoinDialogInstalOpenText" xml:space="preserve">
+    <value>Install File</value>
+  </data>
+  <data name="ValidatoinDialogPluginOpenText" xml:space="preserve">
+    <value>Plugin File</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteMsgFailReasonText" xml:space="preserve">
+    <value>Delete fail for the follonw reason:{0}{1}</value>
+  </data>
+  <data name="DeleteMsgFailTitle" xml:space="preserve">
+    <value>Delete Failed</value>
+  </data>
+  <data name="DeleteMsgSuccessText" xml:space="preserve">
+    <value>Delete was successful.</value>
+  </data>
+  <data name="DeleteMsgSuccessTitle" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Delete Confirm</value>
+  </data>
+  <data name="DeletePluginConfirmText" xml:space="preserve">
+    <value>Are you sure you want to delete the Plugin '{1}'?{0}This action can not be undone!</value>
+  </data>
+  <data name="DeleteProfileConfirmText" xml:space="preserve">
+    <value>Are you sure you want to delete the Profile '{1}'?{0}This will delete all the plugins for this Profile as well.{0}This action can not be undone!</value>
+  </data>
+  <data name="ErrorNoProfileText" xml:space="preserve">
+    <value>There is No Default Profile. Unable to locate or set up a profile. Contact your administrator.</value>
+  </data>
+  <data name="ErrorNoProfileTitle" xml:space="preserve">
+    <value>No Profile</value>
+  </data>
+  <data name="FormHotListTitle" xml:space="preserve">
+    <value>HotList</value>
+  </data>
+  <data name="swap16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycle16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorSettingIniProfileNoFileText" xml:space="preserve">
+    <value>Unable to set the current profile. Unknown File name!</value>
+  </data>
+  <data name="ErrorSettingIniProfileNoFileTitle" xml:space="preserve">
+    <value>Missing File Name</value>
+  </data>
+  <data name="ValidationFormat" xml:space="preserve">
+    <value>{0} is not a valid format</value>
+  </data>
+  <data name="ValidationRequired" xml:space="preserve">
+    <value>{0} is Required</value>
+  </data>
+  <data name="ErrorDuplicateKey" xml:space="preserve">
+    <value>Duplicate {0}</value>
+  </data>
+  <data name="ProfileWindowName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ProfileWindowValue" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="ValueHasToBeSet" xml:space="preserve">
+    <value>{0} has to be set</value>
+  </data>
+  <data name="ValidationNumberLettersUnserscore" xml:space="preserve">
+    <value>{0} must only contain number letters and underscore characters</value>
+  </data>
+  <data name="ValidationMinLength" xml:space="preserve">
+    <value>Min length for {0} is {1} characters</value>
+  </data>
+  <data name="DeleteGeneralQuestion" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="ValidationDublicateNotAllowed" xml:space="preserve">
+    <value>Duplicates are not allowed for {0}</value>
+  </data>
+  <data name="ErrorTitleError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FolderCopy16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_copy16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderMove16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_move16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PluginCopySuccessText" xml:space="preserve">
+    <value>{0} plugin has been copied</value>
+  </data>
+  <data name="PluginCopySuccessTitle" xml:space="preserve">
+    <value>Plugin Copied</value>
+  </data>
+  <data name="PluginMoveSuccessText" xml:space="preserve">
+    <value>{0} plug has been moved</value>
+  </data>
+  <data name="PluginMoveSuccessTitle" xml:space="preserve">
+    <value>Plugin Moved</value>
+  </data>
+  <data name="ValidationInvalidKeyCombination" xml:space="preserve">
+    <value>Invalid Key combination for {0}</value>
+  </data>
+  <data name="windowspy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowspy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileFindWindwSpyTitle" xml:space="preserve">
+    <value>Window Spy</value>
+  </data>
+  <data name="matrix_logo_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\matrix_logo_500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutDistMsg" xml:space="preserve">
+    <value>This program is distributed under the terms of the GNU General Public License v3 or later.</value>
+  </data>
+  <data name="FileHelpName" xml:space="preserve">
+    <value>AutoHotkey Snippit.chm</value>
+  </data>
+  <data name="ReplaceValue" xml:space="preserve">
+    <value>Are you sure you want to replace {0} contents?</value>
+  </data>
+  <data name="ReplaceValueTitle" xml:space="preserve">
+    <value>Replace {0}</value>
+  </data>
+  <data name="ValidationDialogProfileOpen" xml:space="preserve">
+    <value>Profile File</value>
+  </data>
+  <data name="ValidationDialogProfileTitle" xml:space="preserve">
+    <value>Validate Profile</value>
+  </data>
+  <data name="ValidationFieldToLong" xml:space="preserve">
+    <value>{0} contains too many characeters; Maximum length is {1}</value>
+  </data>
+  <data name="ValidationProfileOpenText" xml:space="preserve">
+    <value>Profile File</value>
+  </data>
+  <data name="text16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binary16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binary_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy_doc16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy_doc16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy_doc32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy_doc32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

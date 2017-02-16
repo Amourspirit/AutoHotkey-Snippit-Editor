@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BigByteTechnologies.Windows.Console.AHKSnipit.PluginWriter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PluginHsFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PluginHs.ahk</Value>
+    </Setting>
+    <Setting Name="IncludeEndCharsFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">endchars.ahk</Value>
+    </Setting>
+    <Setting Name="PluginFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Plugins.ahk</Value>
+    </Setting>
+    <Setting Name="PluginKeysFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PluginKeys.ahk</Value>
+    </Setting>
+    <Setting Name="PluginDataFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PluginData.ahk</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

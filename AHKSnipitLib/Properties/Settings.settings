@@ -1,0 +1,113 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DataFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AutoHotkey Snippit</Value>
+    </Setting>
+    <Setting Name="XmlFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Xml</Value>
+    </Setting>
+    <Setting Name="ProfilesFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Profiles</Value>
+    </Setting>
+    <Setting Name="SnipsFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Snips</Value>
+    </Setting>
+    <Setting Name="PluginsFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Plugins</Value>
+    </Setting>
+    <Setting Name="SettingsIni" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">settings.ini</Value>
+    </Setting>
+    <Setting Name="AppIni" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">app.ini</Value>
+    </Setting>
+    <Setting Name="DefaultMinVersionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0.5.0.0</Value>
+    </Setting>
+    <Setting Name="IniProfileSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PROFILE</Value>
+    </Setting>
+    <Setting Name="IniProfileCurrent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">current</Value>
+    </Setting>
+    <Setting Name="IniScriptSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SCRIPT</Value>
+    </Setting>
+    <Setting Name="IniScriptPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">path</Value>
+    </Setting>
+    <Setting Name="IniScriptVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">version</Value>
+    </Setting>
+    <Setting Name="IniScriptLoadState" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">load_state</Value>
+    </Setting>
+    <Setting Name="RegexVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^([0-9]+)(\.[0-9]+)?(\.[0-9]+)?(\.[0-9]+)?$</Value>
+    </Setting>
+    <Setting Name="RegexLetterNumberUnderscore" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[a-zA-Z0-9_]+$</Value>
+    </Setting>
+    <Setting Name="RegexHotstring" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[~&lt;&gt;!#$+^*]*[a-z0-9]+(\sup)?$|^[~&lt;&gt;!#$+^*]*[a-z0-9]+\s*&amp;\s*[a-z0-9]+$</Value>
+    </Setting>
+    <Setting Name="DefaultSnippitExt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.snippit</Value>
+    </Setting>
+    <Setting Name="SnipsFolderInline" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Inline</Value>
+    </Setting>
+    <Setting Name="IniWriterSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WRITER</Value>
+    </Setting>
+    <Setting Name="IniWriterExitCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">exitcode</Value>
+    </Setting>
+    <Setting Name="PluginIncludeSubFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">inc</Value>
+    </Setting>
+    <Setting Name="PluginCmdSubFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cmd</Value>
+    </Setting>
+    <Setting Name="XsdMap" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"&gt;&lt;xs:element name="map"&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element maxOccurs="unbounded" name="item"&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element name="key" type="xs:string"/&gt;&lt;xs:element name="value" type="xs:string"/&gt;&lt;/xs:sequence&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:sequence&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:schema&gt;
+</Value>
+    </Setting>
+    <Setting Name="XmlMapHotstringOpt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;map&gt;&lt;item&gt;&lt;key&gt;TriggerInside&lt;/key&gt;&lt;value&gt;?&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;AutomaticBackSpaceOff&lt;/key&gt;&lt;value&gt;b0&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;CaseSensitive&lt;/key&gt;&lt;value&gt;c&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;NoConform&lt;/key&gt;&lt;value&gt;c1&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;OmitEndChar&lt;/key&gt;&lt;value&gt;o&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;SendRaw&lt;/key&gt;&lt;value&gt;r&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;SendInput&lt;/key&gt;&lt;value&gt;SI&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;SendPlay&lt;/key&gt;&lt;value&gt;SP&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;SendEvent&lt;/key&gt;&lt;value&gt;SE&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;ResetRecognizer&lt;/key&gt;&lt;value&gt;z&lt;/value&gt;&lt;/item&gt;&lt;/map&gt;
+</Value>
+    </Setting>
+    <Setting Name="IniWriterScriptPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">path</Value>
+    </Setting>
+    <Setting Name="IniLaunchPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LaunchPath</Value>
+    </Setting>
+    <Setting Name="IniSettingsAppSection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">APPS</Value>
+    </Setting>
+    <Setting Name="IniSettingsAppWindowSpy" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">windowspy</Value>
+    </Setting>
+    <Setting Name="UrlDonate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://tiny.cc/snipdonate/</Value>
+    </Setting>
+    <Setting Name="XmlMapKey2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;map&gt;&lt;item&gt;&lt;key&gt;A&lt;/key&gt;&lt;value&gt;a&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;B&lt;/key&gt;&lt;value&gt;b&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;C&lt;/key&gt;&lt;value&gt;c&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;D&lt;/key&gt;&lt;value&gt;d&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;E&lt;/key&gt;&lt;value&gt;e&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;F&lt;/key&gt;&lt;value&gt;f&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;G&lt;/key&gt;&lt;value&gt;g&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;H&lt;/key&gt;&lt;value&gt;h&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;I&lt;/key&gt;&lt;value&gt;i&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;J&lt;/key&gt;&lt;value&gt;j&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;K&lt;/key&gt;&lt;value&gt;k&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;L&lt;/key&gt;&lt;value&gt;l&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;M&lt;/key&gt;&lt;value&gt;m&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;N&lt;/key&gt;&lt;value&gt;n&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;O&lt;/key&gt;&lt;value&gt;o&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;P&lt;/key&gt;&lt;value&gt;p&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Q&lt;/key&gt;&lt;value&gt;q&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;R&lt;/key&gt;&lt;value&gt;r&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;S&lt;/key&gt;&lt;value&gt;s&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;T&lt;/key&gt;&lt;value&gt;t&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;U&lt;/key&gt;&lt;value&gt;u&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;V&lt;/key&gt;&lt;value&gt;v&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;W&lt;/key&gt;&lt;value&gt;w&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;X&lt;/key&gt;&lt;value&gt;x&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Y&lt;/key&gt;&lt;value&gt;y&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Z&lt;/key&gt;&lt;value&gt;z&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad0&lt;/key&gt;&lt;value&gt;0&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad1&lt;/key&gt;&lt;value&gt;1&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad2&lt;/key&gt;&lt;value&gt;2&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad3&lt;/key&gt;&lt;value&gt;3&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad4&lt;/key&gt;&lt;value&gt;4&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad5&lt;/key&gt;&lt;value&gt;5&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad6&lt;/key&gt;&lt;value&gt;6&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad7&lt;/key&gt;&lt;value&gt;7&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad8&lt;/key&gt;&lt;value&gt;8&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Numpad9&lt;/key&gt;&lt;value&gt;9&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Space&lt;/key&gt;&lt;value&gt;&amp;#x20;&lt;/value&gt;&lt;/item&gt;&lt;item&gt;&lt;key&gt;Tab&lt;/key&gt;&lt;value&gt;&amp;#x9;&lt;/value&gt;&lt;/item&gt;&lt;/map&gt;</Value>
+    </Setting>
+    <Setting Name="DataItemsFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data</Value>
+    </Setting>
+    <Setting Name="MinAllowedSchemaVersion" Type="System.Decimal" Scope="Application">
+      <Value Profile="(Default)">1.1</Value>
+    </Setting>
+    <Setting Name="MaxAllowedSchemaVersion" Type="System.Decimal" Scope="Application">
+      <Value Profile="(Default)">1.1</Value>
+    </Setting>
+    <Setting Name="UrlProjectHome" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/Amourspirit/Mini-Framework</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

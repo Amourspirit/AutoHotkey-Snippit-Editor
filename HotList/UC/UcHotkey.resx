@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkShift.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkShift.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkShift.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkShift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 48</value>
+  </data>
+  <data name="chkShift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 14</value>
+  </data>
+  <data name="chkShift.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShift.Name" xml:space="preserve">
+    <value>chkShift</value>
+  </data>
+  <data name="&gt;&gt;chkShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShift.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkShift.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkCtrl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkCtrl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCtrl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 4</value>
+  </data>
+  <data name="chkCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 14</value>
+  </data>
+  <data name="chkCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkCtrl.Name" xml:space="preserve">
+    <value>chkCtrl</value>
+  </data>
+  <data name="&gt;&gt;chkCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCtrl.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkCtrl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkWin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkWin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 70</value>
+  </data>
+  <data name="chkWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 14</value>
+  </data>
+  <data name="chkWin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkWin.Name" xml:space="preserve">
+    <value>chkWin</value>
+  </data>
+  <data name="&gt;&gt;chkWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWin.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkWin.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chkAlt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkAlt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAlt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 26</value>
+  </data>
+  <data name="chkAlt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 14</value>
+  </data>
+  <data name="chkAlt.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkAlt.Name" xml:space="preserve">
+    <value>chkAlt</value>
+  </data>
+  <data name="&gt;&gt;chkAlt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAlt.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkAlt.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tblLayoutMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblWin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblWin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 70</value>
+  </data>
+  <data name="lblWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblWin.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblWin.Text" xml:space="preserve">
+    <value>Win:</value>
+  </data>
+  <data name="&gt;&gt;lblWin.Name" xml:space="preserve">
+    <value>lblWin</value>
+  </data>
+  <data name="&gt;&gt;lblWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWin.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblWin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblShift.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblShift.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShift.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblShift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 48</value>
+  </data>
+  <data name="lblShift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblShift.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblShift.Text" xml:space="preserve">
+    <value>Shift:</value>
+  </data>
+  <data name="&gt;&gt;lblShift.Name" xml:space="preserve">
+    <value>lblShift</value>
+  </data>
+  <data name="&gt;&gt;lblShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShift.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblShift.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblAlt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblAlt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAlt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAlt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="lblAlt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblAlt.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblAlt.Text" xml:space="preserve">
+    <value>Alt:</value>
+  </data>
+  <data name="&gt;&gt;lblAlt.Name" xml:space="preserve">
+    <value>lblAlt</value>
+  </data>
+  <data name="&gt;&gt;lblAlt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAlt.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblAlt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ddlKeys2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="ddlKeys2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 113</value>
+  </data>
+  <data name="ddlKeys2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="ddlKeys2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys2.Name" xml:space="preserve">
+    <value>ddlKeys2</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys2.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblKey2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblKey2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblKey2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblKey2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 117</value>
+  </data>
+  <data name="lblKey2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblKey2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblKey2.Text" xml:space="preserve">
+    <value>Key 2:</value>
+  </data>
+  <data name="&gt;&gt;lblKey2.Name" xml:space="preserve">
+    <value>lblKey2</value>
+  </data>
+  <data name="&gt;&gt;lblKey2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblKey2.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblKey2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblKey1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblKey1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblKey1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblKey1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 92</value>
+  </data>
+  <data name="lblKey1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblKey1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblKey1.Text" xml:space="preserve">
+    <value>Key 1:</value>
+  </data>
+  <data name="&gt;&gt;lblKey1.Name" xml:space="preserve">
+    <value>lblKey1</value>
+  </data>
+  <data name="&gt;&gt;lblKey1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblKey1.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblKey1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ddlKeys1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="ddlKeys1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 91</value>
+  </data>
+  <data name="ddlKeys1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="ddlKeys1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys1.Name" xml:space="preserve">
+    <value>ddlKeys1</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys1.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;ddlKeys1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkLeftMod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkLeftMod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLeftMod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkLeftMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 4</value>
+  </data>
+  <data name="chkLeftMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="chkLeftMod.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chkLeftMod.Name" xml:space="preserve">
+    <value>chkLeftMod</value>
+  </data>
+  <data name="&gt;&gt;chkLeftMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLeftMod.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkLeftMod.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblLeftMod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblLeftMod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLeftMod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLeftMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 4</value>
+  </data>
+  <data name="lblLeftMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 13</value>
+  </data>
+  <data name="lblLeftMod.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblLeftMod.Text" xml:space="preserve">
+    <value>Left Mod: Only uselLeft modifier key</value>
+  </data>
+  <data name="&gt;&gt;lblLeftMod.Name" xml:space="preserve">
+    <value>lblLeftMod</value>
+  </data>
+  <data name="&gt;&gt;lblLeftMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLeftMod.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblLeftMod.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chkRightMod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkRightMod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkRightMod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRightMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 26</value>
+  </data>
+  <data name="chkRightMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="chkRightMod.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkRightMod.Name" xml:space="preserve">
+    <value>chkRightMod</value>
+  </data>
+  <data name="&gt;&gt;chkRightMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRightMod.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkRightMod.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblRightMod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblRightMod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRightMod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRightMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 26</value>
+  </data>
+  <data name="lblRightMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 13</value>
+  </data>
+  <data name="lblRightMod.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblRightMod.Text" xml:space="preserve">
+    <value>Right Mod: Only use right modifier key</value>
+  </data>
+  <data name="&gt;&gt;lblRightMod.Name" xml:space="preserve">
+    <value>lblRightMod</value>
+  </data>
+  <data name="&gt;&gt;lblRightMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRightMod.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblRightMod.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chkWildcard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkWildcard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWildcard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWildcard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 48</value>
+  </data>
+  <data name="chkWildcard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="chkWildcard.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chkWildcard.Name" xml:space="preserve">
+    <value>chkWildcard</value>
+  </data>
+  <data name="&gt;&gt;chkWildcard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWildcard.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkWildcard.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblWildcard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblWildcard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWildcard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWildcard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 48</value>
+  </data>
+  <data name="lblWildcard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 13</value>
+  </data>
+  <data name="lblWildcard.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblWildcard.Text" xml:space="preserve">
+    <value>Wildcard: Fire with other keys</value>
+  </data>
+  <data name="&gt;&gt;lblWildcard.Name" xml:space="preserve">
+    <value>lblWildcard</value>
+  </data>
+  <data name="&gt;&gt;lblWildcard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWildcard.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblWildcard.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chkDisableNative.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkDisableNative.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDisableNative.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkDisableNative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 70</value>
+  </data>
+  <data name="chkDisableNative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="chkDisableNative.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chkDisableNative.Name" xml:space="preserve">
+    <value>chkDisableNative</value>
+  </data>
+  <data name="&gt;&gt;chkDisableNative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDisableNative.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkDisableNative.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblDisableNative.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblDisableNative.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDisableNative.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDisableNative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 70</value>
+  </data>
+  <data name="lblDisableNative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 13</value>
+  </data>
+  <data name="lblDisableNative.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblDisableNative.Text" xml:space="preserve">
+    <value>Send keys to active window</value>
+  </data>
+  <data name="&gt;&gt;lblDisableNative.Name" xml:space="preserve">
+    <value>lblDisableNative</value>
+  </data>
+  <data name="&gt;&gt;lblDisableNative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDisableNative.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblDisableNative.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chkInstallHook.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkInstallHook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkInstallHook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInstallHook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 92</value>
+  </data>
+  <data name="chkInstallHook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="chkInstallHook.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;chkInstallHook.Name" xml:space="preserve">
+    <value>chkInstallHook</value>
+  </data>
+  <data name="&gt;&gt;chkInstallHook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInstallHook.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkInstallHook.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblInstallHook.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblInstallHook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInstallHook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInstallHook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 92</value>
+  </data>
+  <data name="lblInstallHook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 13</value>
+  </data>
+  <data name="lblInstallHook.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblInstallHook.Text" xml:space="preserve">
+    <value>Install hook</value>
+  </data>
+  <data name="&gt;&gt;lblInstallHook.Name" xml:space="preserve">
+    <value>lblInstallHook</value>
+  </data>
+  <data name="&gt;&gt;lblInstallHook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInstallHook.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblInstallHook.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chkUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="chkUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 116</value>
+  </data>
+  <data name="chkUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="chkUp.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;chkUp.Name" xml:space="preserve">
+    <value>chkUp</value>
+  </data>
+  <data name="&gt;&gt;chkUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkUp.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;chkUp.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 117</value>
+  </data>
+  <data name="lblUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 13</value>
+  </data>
+  <data name="lblUp.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblUp.Text" xml:space="preserve">
+    <value>Fire when key is relased</value>
+  </data>
+  <data name="&gt;&gt;lblUp.Name" xml:space="preserve">
+    <value>lblUp</value>
+  </data>
+  <data name="&gt;&gt;lblUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUp.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblUp.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblCtrl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblCtrl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCtrl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCtrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="lblCtrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblCtrl.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblCtrl.Text" xml:space="preserve">
+    <value>Ctrl:</value>
+  </data>
+  <data name="&gt;&gt;lblCtrl.Name" xml:space="preserve">
+    <value>lblCtrl</value>
+  </data>
+  <data name="&gt;&gt;lblCtrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCtrl.Parent" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;lblCtrl.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tblLayoutMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tblLayoutMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tblLayoutMain.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tblLayoutMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 137</value>
+  </data>
+  <data name="tblLayoutMain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tblLayoutMain.Name" xml:space="preserve">
+    <value>tblLayoutMain</value>
+  </data>
+  <data name="&gt;&gt;tblLayoutMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayoutMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblLayoutMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayoutMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblWin" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblShift" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblAlt" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ddlKeys2" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblKey2" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblKey1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ddlKeys1" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chkCtrl" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chkAlt" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chkShift" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chkWin" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="chkLeftMod" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblLeftMod" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chkRightMod" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblRightMod" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chkWildcard" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblWildcard" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chkDisableNative" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblDisableNative" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chkInstallHook" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblInstallHook" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="chkUp" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblUp" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblCtrl" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,44,Percent,6" /&gt;&lt;Rows Styles="Percent,16.66028,Percent,16.66028,Percent,16.66861,Percent,16.67028,Percent,16.67028,Percent,16.67028" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 137</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UcHotkey</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

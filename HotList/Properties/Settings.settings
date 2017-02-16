@@ -1,0 +1,116 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BigByteTechnologies.Windows.AHKSnipit.HotList.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DefaultSnippitExt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">snippit</Value>
+    </Setting>
+    <Setting Name="DefaultInstalXml" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0"?&gt;
+&lt;SnippitInstal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="SnippitInstal.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+    &lt;profile version="0.1.0.0" minVersion="0.2.0" name="sample"&gt;
+        &lt;codeLanguage&gt;
+            &lt;codeName&gt;Sample&lt;/codeName&gt;
+            &lt;paths&gt;
+                &lt;mainData&gt;sample&lt;/mainData&gt;
+            &lt;/paths&gt;
+        &lt;/codeLanguage&gt;
+        &lt;windows&gt;
+            &lt;window&gt;
+                &lt;name&gt;Notepad&lt;/name&gt;
+                &lt;value&gt;ahk_class Notepad&lt;/value&gt;
+            &lt;/window&gt;
+        &lt;/windows&gt;
+    &lt;/profile&gt;
+    &lt;plugin version="0.1" profileName="sample" name="sample"&gt;
+        &lt;hotstrings&gt;
+            &lt;hotstring trigger="hw"&gt;
+                &lt;name&gt;Hello World&lt;/name&gt;
+                &lt;description&gt;Hello World&lt;/description&gt;
+                &lt;category&gt;Sample&lt;/category&gt;
+                &lt;forceclear&gt;true&lt;/forceclear&gt;
+                &lt;snippit&gt;hello world&lt;/snippit&gt;
+                &lt;type&gt;inline&lt;/type&gt;
+            &lt;/hotstring&gt;
+        &lt;/hotstrings&gt;
+    &lt;/plugin&gt;
+&lt;/SnippitInstal&gt;</Value>
+    </Setting>
+    <Setting Name="LastDataBinaryImportLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastDataTextImportLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SiWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="SiLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="SiSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">689, 451</Value>
+    </Setting>
+    <Setting Name="PlgLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="PlgSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">826, 556</Value>
+    </Setting>
+    <Setting Name="PlgWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="ProWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="ProLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="ProSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">613, 370</Value>
+    </Setting>
+    <Setting Name="SiLastImportLocationInstall" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SiLastExportLocationInstall" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SiLastExportLocationPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ValLastSiLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ValLastProLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ValLastPlgLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ValWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="ValLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="ValSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">442, 276</Value>
+    </Setting>
+    <Setting Name="SiColKeyWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="SiColModWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="SiColNameWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">106</Value>
+    </Setting>
+    <Setting Name="SiColDescWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">220</Value>
+    </Setting>
+    <Setting Name="SiColCategoryWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

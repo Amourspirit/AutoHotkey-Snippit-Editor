@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F22D5330-B64F-4FFC-B871-0308C438470F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BigByteTechnologies.Windows.AHKSnipit.HotList</RootNamespace>
+    <AssemblyName>HotList</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;-RELOAD</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELOAD</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BigByteTechnologies.Windows.AHKSnipit.HotList.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>matrix_code.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;RELOAD</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;RELOAD</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommandManager, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LIb\Library_Command_Manager\bin\Release\CommandManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Z.IconLibrary.Silk, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.IconLibrary.Silk.2.0.0\lib\net35\Z.IconLibrary.Silk.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmtest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtest.Designer.cs">
+      <DependentUpon>frmtest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UcHotkey.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UcHotkey.Designer.cs">
+      <DependentUpon>UcHotkey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UcHotstring.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UcHotstring.Designer.cs">
+      <DependentUpon>UcHotstring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\About\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\About\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmHotkeyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmHotkeyEdit.Designer.cs">
+      <DependentUpon>frmHotkeyEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\Editor\frmPlugin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\Editor\frmPlugin.Designer.cs">
+      <DependentUpon>frmPlugin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\Editor\frmProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\Editor\frmProfile.Designer.cs">
+      <DependentUpon>frmProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmInputFixedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmInputFixedList.Designer.cs">
+      <DependentUpon>frmInputFixedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmInputDialog.Designer.cs">
+      <DependentUpon>frmInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmProflieSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\Editor\Dialog\frmProflieSelection.Designer.cs">
+      <DependentUpon>frmProflieSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Executor\DataGridViewEx.cs" />
+    <Compile Include="Executor\ToolStripEx.cs" />
+    <Compile Include="Executor\ToolStripTextBoxEx.cs" />
+    <Compile Include="Extensions\ToolStripTextboxExt.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleApplication.cs" />
+    <Compile Include="UserForms\SnippitList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForms\SnippitList.Designer.cs">
+      <DependentUpon>SnippitList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sort\ListViewSort.cs" />
+    <Compile Include="Sort\ListViewSorter.cs" />
+    <Compile Include="Swap\Change.cs" />
+    <Compile Include="UC\UcField.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UcField.Designer.cs">
+      <DependentUpon>UcField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UcFileName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UcFileName.Designer.cs">
+      <DependentUpon>UcFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UcVersion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UcVersion.Designer.cs">
+      <DependentUpon>UcVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validation\ValidatePluginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidatePluginForm.Designer.cs">
+      <DependentUpon>ValidatePluginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validation\ValidationEnum.cs" />
+    <EmbeddedResource Include="frmtest.resx">
+      <DependentUpon>frmtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UcHotkey.resx">
+      <DependentUpon>UcHotkey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UcHotstring.resx">
+      <DependentUpon>UcHotstring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\About\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\Editor\Dialog\frmHotkeyEdit.resx">
+      <DependentUpon>frmHotkeyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\Editor\frmPlugin.resx">
+      <DependentUpon>frmPlugin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\Editor\frmProfile.resx">
+      <DependentUpon>frmProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\Editor\Dialog\frmInputFixedList.resx">
+      <DependentUpon>frmInputFixedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\Editor\Dialog\frmInputDialog.resx">
+      <DependentUpon>frmInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\Editor\Dialog\frmProflieSelection.resx">
+      <DependentUpon>frmProflieSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForms\SnippitList.resx">
+      <DependentUpon>SnippitList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UcField.resx">
+      <DependentUpon>UcField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UcFileName.resx">
+      <DependentUpon>UcFileName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UcVersion.resx">
+      <DependentUpon>UcVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validation\ValidatePluginForm.resx">
+      <DependentUpon>ValidatePluginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="AutoHotkey Snippit.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Plugin.dataItem.datasource" />
+    <None Include="Properties\DataSources\BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Plugin.dataItems.datasource" />
+    <None Include="Properties\DataSources\BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Plugin.HK.HotkeyKeys.datasource" />
+    <None Include="Properties\DataSources\BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Plugin.includes.datasource" />
+    <None Include="Properties\DataSources\BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Plugin.inputFixedList.datasource" />
+    <None Include="Properties\DataSources\BigByteTechnologies.Windows.Library.AHKSnipit.AHKSnipitLib.Plugin.SnippitInstal.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AHKSnipitLib\AHKSnipitLib.csproj">
+      <Project>{c1811246-713f-4655-8fd9-e1ebb8a767b9}</Project>
+      <Name>AHKSnipitLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="matrix_code.ico" />
+    <None Include="Resources\copy_doc32.png" />
+    <None Include="Resources\copy_doc16.png" />
+    <None Include="Resources\binary_16.png" />
+    <None Include="Resources\text16.png" />
+    <None Include="Resources\binary16.png" />
+    <None Include="Resources\binary.png" />
+    <None Include="Resources\matrix_logo_500.png" />
+    <None Include="Resources\windowspy.png" />
+    <None Include="Resources\folder_move16.png" />
+    <None Include="Resources\folder_copy16.png" />
+    <None Include="Resources\recycle16.png" />
+    <None Include="Resources\erase16.png" />
+    <None Include="Resources\import.png" />
+    <None Include="Resources\export.png" />
+    <None Include="Resources\flag_red_16.png" />
+    <None Include="Resources\flag_green_16.png" />
+    <None Include="Resources\red_light16.png" />
+    <None Include="Resources\green_light16.png" />
+    <None Include="Resources\gnome_media_floppy.png" />
+    <None Include="Resources\gnome_application_exit.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
