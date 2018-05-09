@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Paul Moss")]
 [assembly: AssemblyProduct("AutoHotkey Snippit")]
-[assembly: AssemblyCopyright("Copyright ©  2014 - 2017 Paul Moss")]
+[assembly: AssemblyCopyright("Copyright ©  2014 - 2018 Paul Moss")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.7.3.0")]
-[assembly: AssemblyFileVersion("0.7.3.0")]
+[assembly: AssemblyVersion("0.8.0.0")]
+[assembly: AssemblyFileVersion("0.8.0.0")]
